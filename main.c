@@ -1,8 +1,11 @@
 #include "Application/Application.h"
 /************************************************************************/
-/*  Admin Password is 1234
-  Admin UserName is 123
-  Admin  EEPROM Location is @ 101 byte address page 1             */
+/*  Admin Password is 1155
+  Admin UserName is 911
+  Admin  EEPROM Location is @ 101 byte address page 1 
+  user login is :111
+  user password is :1998
+  */
 
 
 
@@ -32,7 +35,7 @@ int main(){
 		  char NumberOfUsers = 0;
 		  NumberOfUsers = HEEPROM_ReadByte(0, 100);
 		  u8 UserID   [IDLENGTH] = {1, 1, 1};
-		  u8 UserPassword [PASSWORDLENGTH] = {1,1,5,5};
+		  u8 UserPassword [PASSWORDLENGTH] = {1,9,9,8};
 		  u8 KeyPRESSEDBUTTON = 0;
 		  u8 Trails = 0;
 		  u8 DoorState = 0;
