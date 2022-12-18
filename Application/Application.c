@@ -586,12 +586,12 @@ void Relay(u8 RelayState)
 void AppInit(void)
 {
   HEEPROM_WriteByte('1', 0, 101);
-  HEEPROM_WriteByte('2', 0, 102);
-  HEEPROM_WriteByte('3', 0, 103);
-  HEEPROM_WriteByte('1', 0, 104);
-  HEEPROM_WriteByte('2', 0, 105);
-  HEEPROM_WriteByte('3', 0, 106);
-  HEEPROM_WriteByte('4', 0, 107);
+  HEEPROM_WriteByte('1', 0, 102);
+  HEEPROM_WriteByte('5', 0, 103);
+  HEEPROM_WriteByte('5', 0, 104);
+  HEEPROM_WriteByte('9', 0, 105);
+  HEEPROM_WriteByte('1', 0, 106);
+  HEEPROM_WriteByte('1', 0, 107);
 }
 
 void Welcoming(void)
